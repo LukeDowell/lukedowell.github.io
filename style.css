@@ -4,11 +4,12 @@ html {
 }
 
 main {
-    margin: 100px 450px auto 450px;
+    margin: 100px auto auto auto;
     padding: 25px 20px 40px 20px;
     border: 2px solid black;
     box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
     background: white;
+     max-width: 800px;
 }
 
 h1, h2, h3, h4, p {
@@ -73,6 +74,23 @@ ul {
 
 .biography p {
     margin: 20px 35px 20px 35px;
+}
+
+.skills ul {
+    list-style: square;
+    color: #207cca;
+    display: inline-block;
+    position: relative;
+    left: 70px;
+}
+
+.skills li {
+    margin-bottom: 10px;
+}
+
+.skills span {
+    color: black;
+    font-family: Arial, sans-serif;
 }
 
 .job-post {
