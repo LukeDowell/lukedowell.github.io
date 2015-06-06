@@ -1,138 +1,96 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
-		<!-- Latest compiled and minified CSS -->
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
-		<link type="text/css" rel="stylesheet" href="stylesheet.css">
-		<script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
-		<script src="app.js"></script>
-	</head>
-	<body>
-		<div class="contact-information">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-6">
-						<div class="pull-right">
-							<img src="phoneicon.png">
-							<span style="padding-left: 10px;">
-								<h5>612-217-1274</h5>
-							</span>
-						</div>
-						<h1>Luke Dowell</h1>
-						<p>I'm always in search of new skills to learn and people to meet. I hope to travel a lot and experience as much of life as I can. I learn and work best in hands-on environments where I'm free to ask questions and explore. I've always been passionate about computers and look forward to a career surrounded with technology. </p>
-					</div>
-					<div class="col-md-5">
-						<img src="photo.png">
-					</div>
-					<div class="col-md-1"></div>
-				</div>
-			</div>
-		</div>
-		<div class="skills">
-			<div class="container">
-				<div class="row">
-					<h2>Skills</h2>
-					<div class="col-md-3">
-						<ul>
-							<li>Java</li>
-							<li>Office Suite</li>
-							<li>Public Speaking</li>
-						</ul>
-					</div>	
-					<div class="col-md-3">
-						<ul>
-							<li>Interpersonal Communication</li>
-							<li>Problem Solving</li>
-							<li>Writing</li>
-						</ul>
-					</div>
-					<div class="col-md-3">
-						<ul>
-							<li>Word processing</li>
-							<li>Troubleshooting</li>
-							<li>Customer Service</li>
-						</ul>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="experience">
-			<div class="container">
-				<div class="row">
-					<h2>Experience</h2>
-				</div>
-				<div class="row">
-					<div class="col-md-9">
-						<ul class="nav nav-pills">
-							<li id="dctc-button" class="active"><a href="#">DCTC</a>
-								<div class="job-post" backgroundimage ="computerlab.png" style="display: none;">
-									<h3>Dakota County Technical College</h3>
-									<div class="pull-right">		
-										<h5>10 / 13 - 03 / 14</h5>
-									</div>
-									<h4>Computer Lab Assistant</h4>
-									<p>Managed computer lab and assisted in set up of audio visual equipment throughout the campus. Troubleshooting and general computer maintenance on a daily basis.</p>
-								</div>
-							</li>
-							<li id="applebees-button"><a href="#">Applebee's</a>
-								<div class="job-post" backgroundimage = "applebees.png" style="display: none;">
-									<h3>Applebee's</h3>
-									<div class="pull-right">
-										<h5>06 / 14 - 12 / 14</h5>
-									</div>
-									<h4>Server</h4>
-									<p>Daily customer interation in a professional and respectful manner. Up selling techniques to meet guideline quotas. Food preperation and handling, general restaurant etiquette.</p>
-								</div>
-							</li>
-							<li id="insight-button"><a href="#">Insight Global</a>
-								<div class="job-post" backgroundimage = "networking.png" style="display: none;">
-									<h3>Insight Global</h3>
-									<div class="pull-right">
-										<h5>09 / 13 - 09 / 13</h5>
-									</div>
-									<h4>Computer Tech</h4>
-									<p>Handled Windows XP to 7 migration for Prime Therapeutics. Responsibilities included installing new memory on laptops and desktops, backing up sensitive data to a local server, formatting and re-installing Windows 7 and restoring user data.</p>
-								</div>
-							</li>
-							<li id="room-button"><a href="#">Room & Board</a>
-								<div class="job-post" backgroundimage = "officespace.png" style="display: none;">
-									<h3>Room & Board</h3>
-									<div class="pull-right">
-										<h5>07 / 10 - 07 / 10</h5>
-									</div>
-									<h4>QA Intern</h4>
-									<p>I spent a short period at Room & Board helping the web development team test their website. I worked alongside a current QA employee and used basic web debugging tools.</p>
-								</div>
-							</li>
-							<li id="marcus-button"><a href="#">Marcus Theaters</a>
-								<div class="job-post" backgroundimage = "popcorn.png" style="display: none;">
-									<h3>Marcus Theatres</h3>
-									<div class="pull-right">
-										<h5>06 / 11 - 10 / 13</h5>
-									</div>
-									<h4>Associate</h4>
-									<p>Daily face to face interaction with customers, kitchen and projection repair, assistance with transition from analog to digital projection systems</p>
-								</div>
-							</li>
-						</ul>
-						<div class="jumbotron">
-							<div class="container">
-								<div class="job-post whitestroke" style="display: inline;">
-									<h3>Dakota County Technical College</h3>
-									<div class="pull-right">		
-										<h5>10 / 13 - 03 / 14</h5>
-									</div>
-									<h4>Computer Lab Assistant</h4>
-									<p>Managed computer lab and assisted in set up of audio visual equipment throughout the campus. Troubleshooting and general computer maintenance on a daily basis.</p>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-3">
-					</div>
-				</div>
-			</div>
-		</div>
-	</body>
+<head lang="en">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css"/>
+    <title>Prime Resume</title>
+</head>
+<body>
+    <main>
+        <section class="header">
+            <img src="res/personal-photo.jpg">
+            <div class="contact-info">
+                <h1>Luke Dowell</h1>
+                <div class="contact-cell">
+                    <img src="res/email-icon.png">
+                    <p>lukedowell@gmail.com</p>
+                </div>
+                <div class="contact-cell">
+                    <img src="res/phone-icon.png">
+                    <p>612-567-8309</p>
+                </div>
+            </div>
+        </section>
+        <section class="biography">
+            <div class="section-header">
+                <h2>Biography</h2>
+            </div>
+            <p>I am always in search of new skills to learn and people to meet. I hope to travel a lot and experience as much of life as I can. I'm currently attending Prime Academy, a web development education program
+            set up by the Nerdery. I'm looking forward to beginning a career in software development soon!</p>
+        </section>
+        <section class="experience">
+            <div class="section-header">
+                <h2>Experience</h2>
+            </div>
+            <ul>
+                <li>
+                    <article class="job-post">
+                        <div class="job-post-header">
+                            <img class="company-icon" src="res/jobicon/book.png">
+                            <div class="job-title-info">
+                                <h3 class="company-title">Dakota County Technical College</h3>
+                                <h4 class="job-title">Computer Lab Assistant</h4>
+                            </div>
+                        </div>
+                        <div class="header-dropdown">
+                        </div>
+                        <p>Managed computer lab and assisted in set up of audio visual equipment throughout the campus. Troubleshooting and general computer maintenance on a daily basis.</p>
+                    </article>
+                </li>
+                <li>
+                    <article class="job-post">
+                        <div class="job-post-header">
+                            <img class='company-icon' src="res/jobicon/utencils.png">
+                            <div class="job-title-info">
+                                <h3 class="company-title">Applebee's</h3>
+                                <h4 class="job-title">Server</h4>
+                            </div>
+                        </div>
+                        <div class="header-dropdown">
+                        </div>
+                        <p>Daily customer interation in a professional and respectful manner. Up selling techniques to meet guideline quotas. Food preperation and handling, general restaurant etiquette.</p>
+                    </article>
+                </li>
+                <li>
+                    <article class="job-post">
+                        <div class="job-post-header">
+                            <img class='company-icon' src="res/jobicon/computer.png">
+                            <div class="job-title-info">
+                                <h3 class="company-title">Insight Global</h3>
+                                <h4 class="job-title">PC Tech</h4>
+                            </div>
+                        </div>
+                        <div class="header-dropdown">
+                        </div>
+                        <p>Handled Windows XP to 7 migration for Prime Therapeutics. Responsibilities included installing new memory on laptops and desktops, backing up sensitive data to a local server, formatting and re-installing Windows 7 and restoring user data.</p>
+                    </article>
+                </li>
+                <li>
+                    <article class="job-post">
+                        <div class="job-post-header">
+                            <img class='company-icon' src="res/jobicon/popcorn.png">
+                            <div class="job-title-info">
+                                <h3 class="company-title">Marcus Theaters</h3>
+                                <h4 class="job-title">Associate</h4>
+                            </div>
+                        </div>
+                        <div class="header-dropdown">
+                        </div>
+                        <p>Daily face to face interaction with customers, kitchen and projection repair, assistance with transition from analog to digital projection systems</p>
+                    </article>
+                </li>
+            </ul>
+        </section>
+    </main>
+</body>
 </html>
